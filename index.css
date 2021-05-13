@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: 0;
+    /* padding: 0; */
     box-sizing: border-box;
 }
 body{
@@ -198,15 +198,18 @@ body{
 
 
 input{
-    width: 224px;
+    /* width: 224px; */
     height: 40px;
     border: 1px solid #d7d8e0;
     border-radius: 100px;
     box-sizing: border-box;
     padding: 10px 16px;
     display: inline-block;
-    color: rgba(18,18,23,.24);
+    color: black;
     font-size: 14px;
     transition: .2s;
     padding-left: 8px;
+}
+input:focus{
+    outline: none;
 }
